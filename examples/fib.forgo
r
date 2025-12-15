@@ -1,0 +1,12 @@
+a = 1
+b = 1
+
+while true do
+	if a > 100 then break end
+
+	c = a + b
+	a = b
+	b = c
+
+	print(a)
+end
