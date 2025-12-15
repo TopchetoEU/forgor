@@ -55,7 +55,7 @@ local ok, err = pcall(function ()
 			print(err[err_tag]);
 		end
 	else
-		print "I would tell you the welcome message, but I forgor...";
+		print "The welcome message should go here, but i forgor...";
 		for l in io.stdin:lines "l" do
 			local err = run(l);
 			if err and err[err_tag] then
